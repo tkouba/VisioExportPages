@@ -43,14 +43,13 @@ Guidelines for bug reports:
 
 3. **Isolate the problem** &mdash; ideally create an
    [SSCCE](http://www.sscce.org/) and a live example.
-   Uploading the project on cloud storage (OneDrive, DropBox, et el.)
-   or creating a sample GitHub repository is also helpful.
+   Uploading the project on cloud storage (OneDrive, DropBox, et el.).
 
 
 A good bug report shouldn't leave others needing to chase you up for more
 information. Please try to be as detailed as possible in your report. What is
-your environment? What steps will reproduce the issue? What browser(s) and OS
-experience the problem? Do other browsers show the bug differently? What
+your environment? What steps will reproduce the issue? What Office version and OS
+experience the problem? Do other versions show the bug differently? What
 would you expect to be the outcome? All these details will help people to fix
 any potential bugs.
 
@@ -58,7 +57,7 @@ Example:
 
 > Short and descriptive example bug report title
 >
-> A summary of the issue and the Visual Studio, browser, OS environments
+> A summary of the issue and the Visio, Office version, OS environments
 > in which it occurs. If suitable, include the steps required to reproduce the bug.
 >
 > 1. This is the first step
