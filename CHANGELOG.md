@@ -1,25 +1,18 @@
 # Road map
 
-- [x] A feature that has been completed
-- [ ] A feature that has NOT yet been completed
+- [x] Export pages
+- [ ] Setup file
+  - [x] Basic setup file
+  - [ ] Improved setup file
+- [ ] Change PNG file export options
 
-Features that have a checkmark are complete and available for
-download in the
-[CI build](http://vsixgallery.com/extension/{ID}/).
+Features that have a checkmark are complete and available for download.
 
 # Change log
 
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
-
-## 1.1
-
-- [x] Feature 3
-- [x] Feature 4
+These are the changes to each version that has been released.
 
 ## 1.0
 
 - [x] Initial release
-- [x] Feature 1
-- [x] Feature 2
-  - [x] Sub feature
+- [x] Export pages
