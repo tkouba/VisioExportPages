@@ -7,7 +7,7 @@
 .COMPANYNAME 
 .COPYRIGHT (c) 2022 Tomas Kouba. All rights reserved.
 .TAGS
-.LICENSEURI https://github.com/tkouba/VisioExportPages/LICENSE.md
+.LICENSEURI https://github.com/tkouba/VisioExportPages/blob/master/LICENSE.md
 .PROJECTURI https://github.com/tkouba/VisioExportPages
 .ICONURI
 .EXTERNALMODULEDEPENDENCIES
