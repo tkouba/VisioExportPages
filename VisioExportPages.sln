@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportPages", "ExportPages\ExportPages\ExportPages.csproj", "{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Setup", "ExportPages\Setup\Setup.wixproj", "{E5AF3154-02ED-4073-968C-96AF56012851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80C92CE2-4A62-424F-8D80-B23941ECB71D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		ISSUE_TEMPLATE.md = ISSUE_TEMPLATE.md
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D0C4FD3-0AEF-4B11-84E1-6F5E593E542A}.Release|x86.Build.0 = Release|Any CPU
+		{E5AF3154-02ED-4073-968C-96AF56012851}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E5AF3154-02ED-4073-968C-96AF56012851}.Debug|x86.ActiveCfg = Debug|x86
+		{E5AF3154-02ED-4073-968C-96AF56012851}.Debug|x86.Build.0 = Debug|x86
+		{E5AF3154-02ED-4073-968C-96AF56012851}.Release|Any CPU.ActiveCfg = Release|x86
+		{E5AF3154-02ED-4073-968C-96AF56012851}.Release|x86.ActiveCfg = Release|x86
+		{E5AF3154-02ED-4073-968C-96AF56012851}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A83DEC-803F-4D6A-8EC1-243CCC5B3183}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <!-- see also http://youpresent.co.uk/customising-powerpoint-2016-backstage-view/ -->
+  <!-- https://www.rondebruin.nl/win/s2/win003.htm -->
+  <!--<ribbon>
+    <tabs>
+      <tab idMso="TabHome">
+        <group id="groupExport" getLabel="GetLabel">
+          <button id="commandExport" onAction="OnAction" getLabel="GetLabel" getImage="GetImage" size="large" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>-->
+  <backstage>
+    <tab idMso="TabPublish">      
+      <firstColumn>
+        <taskFormGroup idMso="PublishGroup">
+          <category idMso="FileTypes">            
+            <task id="taskExport" insertAfterMso="SaveDrawing" getLabel="GetLabel" imageMso="PackAndGoPictures">              
+              <group id="groupExport" getLabel="GetLabel" getHelperText="GetHelperText">
+                <topItems>
+                  <layoutContainer id="exportDescriptionRow1Group" layoutChildren="horizontal">
+                    <imageControl id="exportDescriptionRow1Bullet" getImage="GetImageBullet"/>
+                    <labelControl id="exportDescriptionRow1" getLabel="GetLabel"/>
+                  </layoutContainer>
+                  <layoutContainer id="exportDescriptionRow2Group" layoutChildren="horizontal">
+                    <imageControl id="exportDescriptionRow2Bullet" getImage="GetImageBullet"/>
+                    <labelControl id="exportDescriptionRow2" getLabel="GetLabel"/>
+                  </layoutContainer>
+                  <layoutContainer id="exportDescriptionRow3Group" layoutChildren="horizontal">
+                    <imageControl id="exportDescriptionRow3Bullet" getImage="GetImageBullet"/>
+                    <labelControl id="exportDescriptionRow3" getLabel="GetLabel"/>
+                  </layoutContainer>
+                  <button id="commandExport" onAction="OnAction" getLabel="GetLabel" imageMso="PackAndGoPictures" style="large" />
+                  <button id="commandAbout" onAction="OnAction" getLabel="GetLabel" imageMso="Info" />
+                </topItems>
+              </group>
+            </task>
+          </category>
+        </taskFormGroup>
+      </firstColumn>
+    </tab>
+  </backstage>
+</customUI>
